@@ -20,6 +20,7 @@ const properties: INodeProperties[] = [
 		default: '',
 		placeholder: 'e.g. New Folder',
 		description: "The name of the new folder. If not set, 'Untitled' will be used.",
+		aiGeneration: true,
 	},
 	{
 		...driveRLC,
